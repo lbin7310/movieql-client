@@ -10,7 +10,7 @@ function App() {
     <ApolloProvider client={client}>
       <div className="App" />
       <Router>
-        <Route exact={true} path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/detail/:movie_id" component={Detail} />
       </Router>
     </ApolloProvider>

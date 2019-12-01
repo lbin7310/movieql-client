@@ -5,3 +5,5 @@ const client = new ApolloClient({
 })
 
 export default client;
+
+// 여기는 연결하는 부분
